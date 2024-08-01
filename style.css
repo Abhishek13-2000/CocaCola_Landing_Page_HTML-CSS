@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 55%;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+#nav>i{
+    font-size: 20px;
+}
+#nav h5{
+    font-size: 15px;
+    text-transform:capitalize;
+
+}
+#nav img{
+    height: 50px;
+}
+.line{
+    width: 70px;
+    height: 1px;
+    background-color: red;
+}
+
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 90px 110px;
+}
+#right{
+    width: 38%;
+    height: 100%;
+    /* background-color: rgb(184, 151, 151); */
+    padding: 280px 120px;
+}
+#center{
+    width: 26%;
+    height: 100%;
+    /* background-color: rgb(151, 211, 49); */
+    padding-top: 80px;
+}
+#left h1{
+    font-size: 55px;
+    line-height: 55px;
+    font-weight:normal;
+    margin-bottom: 50px;
+
+}
+#left h1 span{
+    color: red;
+    font-weight: 800;
+}
+#left p{
+    font-size: 15px;
+    width: 70%;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+#left button{
+    background-color: red;
+    padding: 18px 28px;
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+#left button i{
+    margin-right: 4px;
+}
+#center-bg{
+    /* background-color: yellow; */
+    height: 90%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(./Capture.JPG);
+    background-size: 200px;
+    filter: blur(2px);
+}
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%,0%);
+}
+#right-elems{
+    /* background-color: red; */
+    width: 290px;
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    /* background-color: navy; */
+    border-bottom: 1px solid gray;
+    opacity: 0.3;
+}
+#elem1 h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+#elem1 i{
+    font-size: 24px;
+    /* font-weight: 500; */
+}
+#elem2 h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+#elem2 p{
+    font-size: 15px;
+    color: gray;
+    opacity: 0.3;
+}
